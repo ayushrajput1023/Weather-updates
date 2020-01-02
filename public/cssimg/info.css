@@ -1,0 +1,41 @@
+html,body{
+
+  text-align: center;
+  background-color:#e4f9ff;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lobster', cursive;
+}
+h1{
+  margin-top: 2rem;
+  padding-top: 1rem;
+  font-size: 4.625rem;
+  color:#66BFBF;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+h2{
+  padding-bottom: 1rem;
+  color:#66BFBF;
+  font-weight: bold;
+  margin-bottom: 80px;
+}
+span{
+  font-weight:bolder;
+  font-size: 20.28px;
+  color: #fa163f;
+}
+.firstcloud {
+    position: absolute;
+    right: 200px;
+    top: 50px;
+  }
+.secondcloud {
+    position: absolute;
+    left: 220px;
+    bottom: 500px;
+  }
+.heading{
+  background-color:#ffcc00;
+  padding-bottom: 0.3px;
+}

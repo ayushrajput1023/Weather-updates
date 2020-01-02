@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> <%=city%> Weather Report</title>
+    <link rel="icon" href="cssimg/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssimg/info.css">
+  </head>
+  <body>
+    <img class="firstcloud" src="cssimg/cloud.png" alt="cloud-image">
+      <h1> <%=city%>,<%=country%></h1>
+    <img class="secondcloud" src="cssimg/cloud.png" alt="cloud-image">
+      <h2><%=day%></h2>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <span>Sunrise:</span> <%=sunrise%> <br><br>
+          <span>Sunset:</span> <%=sunset%> <br><br>
+          <span>Condition:</span> <%=condition%> <br><br>
+          <span>Temperature:</span> <%=temp%>C <br><br>
+          <span>Humidity:</span> <%=humidity%>% <br><br>
+          <span>Wind:</span> <%=wind%>km/hr
+        </div>
+        <div class="col-sm">
+          <span>Day:</span> <%=fd1 %><br><br>
+          <span>Lowest Temperature:</span> <%=fl1 %>C<br><br>
+          <span>Highest Temperature:</span> <%=fh1 %>C<br><br>
+          <span>Condition:</span> <%=fc1 %>
+        </div>
+        <div class="col-sm">
+          <span>Day:</span> <%=fd2 %><br><br>
+          <span>Lowest Temperature:</span> <%=fl2 %>C<br><br>
+          <span>Highest Temperature:</span> <%=fh2 %>C<br><br>
+          <span>Condition:</span> <%=fc2 %>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </body>
+</html>
