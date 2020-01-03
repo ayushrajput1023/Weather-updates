@@ -16,7 +16,7 @@ app.get("/",function(req,res){
 });
 
 
-var options = {weekday:'long', month:'long', day:'numeric'};
+var options = {weekday:'long', month:'long', day:'numeric', hour:'numeric', minute:'numeric'};
 var d = new Date();
 var day = d.toLocaleDateString("en-US",options);
 
